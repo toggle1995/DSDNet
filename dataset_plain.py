@@ -137,7 +137,8 @@ class FGB(data.Dataset):
         label = int(self.datalist[index].strip().split('xxxx')[-1])
         image_path_now = self.datalist[index].strip().split('xxxx')[0]
 
-        imgname = os.path.join(self.image_path, image_path_now)
+        # imgname = os.path.join(self.image_path, image_path_now)
+        imgname = image_path_now
         img = Image.open(imgname)
 
         img = self.resize(img)
