@@ -1,0 +1,53 @@
+# Python 编译文件
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pycache__
+
+# IPython notebook / Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 虚拟环境
+venv/
+env/
+.pyenv/
+virtualenv/
+
+# 深度学习相关
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.weights
+*.onnx
+*.tflite
+*.pb
+*.pkl
+*.npy
+
+# 日志与缓存
+*.log
+*.prof
+.cache/
+logs/
+runs/
+output/
+experiments/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS 相关
+.DS_Store
+Thumbs.db
+
+# 数据集（如果你本地保留了副本）
+data/
+dataset/
+
+batchscript-*
